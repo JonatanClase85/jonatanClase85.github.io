@@ -1,0 +1,59 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.contenedorBuscador{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;   
+}
+
+.buscador {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.botonBuscar {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cardPeliculas {
+    border-top: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px; 
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.imagen {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
