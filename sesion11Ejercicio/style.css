@@ -1,0 +1,20 @@
+#divHoja {
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+#superman {
+    position: relative;
+    left: 100px;
+    top: 400px;
+    
+}
+#superman,img{
+    width: 200px;
+}
+
+#caja {
+    color: pink;
+    background-color: pink;
+}
