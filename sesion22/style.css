@@ -1,0 +1,38 @@
+#div-principal {
+  color: #3be90b;
+  background-color: purple;
+  height: 200px;
+  width: 200px;
+}
+
+.div-secundario {
+  background-color: rgba(238, 223, 9, 0.6862745098);
+}
+.div-secundario p {
+  font-size: 2rem;
+  color: #3be90b;
+}
+
+.peli-3 {
+  width: 200px;
+  height: 300px;
+  background-color: chocolate;
+}
+
+.peli-1 {
+  width: 100px;
+  height: 50px;
+  background-color: purple;
+  border: 1px;
+  box-shadow: 5px 5px 3px gray;
+}
+
+.peli-2 {
+  width: 400px;
+  height: 500px;
+  background-color: rgba(238, 223, 9, 0.6862745098);
+  border: 1px;
+  box-shadow: 5px 5px 3px gray;
+}
+
+/*# sourceMappingURL=style.css.map */

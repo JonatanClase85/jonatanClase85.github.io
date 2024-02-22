@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+    <div class="boxTitle">
+        <h1>Paginas de Habitaciones de Hotel</h1>
+    </div>
+    <div class="cajaGrid">
+        <div class="room oferta">
+            <h2>Habitacion...</h2>
+            <img src="#" alt="" >
+            <p>Precio: 20</p>
+            <p>Numero de camas: 1</p>
+        </div>
+        <div class="room cama-doble">
+            <h2>Habitacion...</h2>
+            <img src="#" alt="" >
+            <p>Precio: 30</p>
+            <p>Numero de camas:3 </p>
+        </div>
+        <div class="room oferta">
+            <h2>Habitacion...</h2>
+            <img src="#" alt="" >
+            <p>Precio: 39</p>
+            <p>Numero de camas: 1</p>
+        </div>
+        <div class="room cama-doble">
+            <h2>Habitacion...</h2>
+            <img src="#" alt="" >
+            <p>Precio: 55</p>
+            <p>Numero de camas: 2 </p>
+        </div>
+        <div class="room oferta">
+            <h2>Habitacion...</h2>
+            <img src="#" alt="" >
+            <p>Precio: 66</p>
+            <p>Numero de camas: 2</p>
+        </div>
+    </div>
+    
+    <div class="cajaBotones">
+        <button id="todos">Todos</button>
+        <button id="ofertas" onclick="ofertas()">Ofertas</button>
+        <button id="botonDobles" onclick="dobles()">Camas Dobles</button>
+    </div>
+        
+        <div id="divHabitaciones"></div>
+        <script src="./hotel.js"></script>
+</body>
+</html>

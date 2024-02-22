@@ -1,0 +1,20 @@
+#identificador {
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 250px;
+    padding: 0.5;
+    border-radius: 60px;
+    border-width: 60px;
+    font-size: 50px;
+}
+.error1 {
+    border-color: yellow;
+}
+.error2 {
+    border-color: red;
+}
+.ok {
+    border-color: green;
+}

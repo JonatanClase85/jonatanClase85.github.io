@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Creamos un conometro, posibles usos para temporizar el calculo del algunos procesos
+        const inicio = console.time(); // Esta sentencia inicializa un conometro
+
+            for(i = 0; i < 100; i++) {
+                console.log(`Pensando ${i}`);
+            }
+        const final = console.timeEnd(); // Detiene la sentecia conometro
+    </script>
+    <script src="./hoisting.js"></script>
+</body>
+</html>

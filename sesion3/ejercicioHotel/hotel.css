@@ -1,0 +1,32 @@
+.boxTitle {
+    text-align: center;
+    margin-bottom: 29px;
+    color: cadetblue;
+}
+
+.cajaGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.room {
+    border: 10px ;
+    border-color: black;
+    width: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.room h2 {
+    color: rebeccapurple;
+}
+
+.room p {
+    color: aqua;
+}
+
+.cajaBotones {
+    margin-top: 29px;
+    text-align: center;
+    align-items: center;
+}

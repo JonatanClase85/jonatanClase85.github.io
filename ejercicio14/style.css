@@ -1,0 +1,24 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+}
+.contenedorArticulo {
+    background-color: red;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.contenedorArticulo, h1 {
+    color: blueviolet;
+}
+
+.contenedorArticulo:hover{
+    background-color: aquamarine;
+}
+
+.contenedorImg {
+    width: 70%;
+}

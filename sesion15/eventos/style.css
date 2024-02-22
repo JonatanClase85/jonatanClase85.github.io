@@ -1,0 +1,45 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+#boton1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-color: pink;
+    background-color: green;
+}
+
+#boton1:hover {
+    color: blue;
+}
+
+#boton2:hover {
+    color: tomato;
+}
+
+#boton2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-color: black;
+    background-color: violet;
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+.imagen {
+    background-color: aqua;
+    color: aquamarine;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.ok{
+    transform: scale(1.5);
+}

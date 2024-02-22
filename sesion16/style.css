@@ -1,0 +1,17 @@
+.llama {
+    width: 200px;
+    height: 200px;
+    opacity: 0.1;
+}
+
+.apagado {
+    opacity: 0.1;
+}
+
+.medioEncendido {
+    opacity: 0.5;
+}
+
+.encendido {
+    opacity: 1;
+}

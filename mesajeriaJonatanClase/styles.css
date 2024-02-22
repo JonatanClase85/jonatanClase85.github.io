@@ -1,0 +1,40 @@
+body {
+    width: 100%;
+    height: 100%;
+
+
+}
+.idMensajes {
+    background-color: coral;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.emisor-alicia{
+    width: 80%;
+    height: 100px;
+    background-color: blueviolet;
+    color: black;
+}
+.emisor-pepe{
+    width: 80%;
+    height: 100px;
+    background-color: green;
+    color: black;
+}
+.emisor-juan{
+    width: 80%;
+    height: 100px;
+    background-color: crimson;
+    color: black;
+}
+.emisor-undefined{
+    width: 80%;
+    height: 100px;
+    background-color: yellow;
+    color: black;
+}

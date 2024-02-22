@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+   
+}
+
+.añadir {    
+    margin-top: 10px;
+    border: inset;
+    background-color: aquamarine;
+}
+
+.boton {
+    margin-top: 10px;
+    border: none;
+    background-color: greenyellow;
+    border-radius: 20%;
+}
+
+.botonBorrar{
+    margin-top: 10px;
+    border: none;
+    background-color: gold;
+    border-radius: 20%;
+}
+
+.cesta {
+    margin-top: 10px;
+    background-color: violet;
+    color: black;
+    text-align: center;
+}
